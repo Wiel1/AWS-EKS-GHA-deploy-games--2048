@@ -12,6 +12,5 @@ proceed in the following manner;
 2) <b>Phase Two</b>: Having gained some understanding from the POC, design and implement a CICD pipeline that will automate the deployment
 of the team's java application onto the AWS EKS cluster, across three environments (Dev, UAT and Prod).
 
-3) <b>Phase three (Stretched Objective)</b>: The organisation is very quality and security conscious and would like capabilities to be built into
-the delivery pipeline for testing and security scanning. Research what tools you could use and how you would integrate them into the pipeline.
+3) <b>Phase three (Stretched Objective)</b>: The organisation is very quality and security conscious and would like these capabilities to be built into the delivery pipeline for testing and security scanning. Research what tools you could use and how you would integrate them into the pipeline.
 
