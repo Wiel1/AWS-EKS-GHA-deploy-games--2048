@@ -16,6 +16,7 @@ proceed in the following manner;
 ## Some points to consider
 
 * What is a POC and why is it required?
+* What do you understand by the expression <b> To seek common understanding</b> and how would you go about achieving this in the course of this bootcamp?
 * As a member of the application team who is required to deploy onto the Platform EKS cluster, how would you go about building a relationship with the platform team?
 * Come up with at least 5 questions you would want to ask the platform team in order to gather the information you need for your design
 * Design the POC landscape
