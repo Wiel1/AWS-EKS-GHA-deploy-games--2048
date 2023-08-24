@@ -12,3 +12,14 @@ proceed in the following manner;
 
 3) <b>Phase three (Stretched Objective)</b>: The organisation is very quality and security conscious and would like these capabilities to be built into the delivery pipeline for testing and security scanning. Research what tools you could use and how you would integrate them into the pipeline.
 
+
+## Some points to consider
+
+* What is a POC and why is it required?
+* As a member of the application team who is required to deploy onto the Platform EKS cluster, how would you go about building a relationship with the platfform team?
+* Come up with at 5 questions you would want to ask the platform team in order to gather the information you need for your design
+* Design the POC
+* Get consensus on the design
+* Split of the design into the various activities and estimate each task
+* Document all your work
+* Start the implementation and track your progress
