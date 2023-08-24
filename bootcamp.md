@@ -16,10 +16,11 @@ proceed in the following manner;
 ## Some points to consider
 
 * What is a POC and why is it required?
-* As a member of the application team who is required to deploy onto the Platform EKS cluster, how would you go about building a relationship with the platfform team?
-* Come up with at 5 questions you would want to ask the platform team in order to gather the information you need for your design
-* Design the POC
+* As a member of the application team who is required to deploy onto the Platform EKS cluster, how would you go about building a relationship with the platform team?
+* Come up with at least 5 questions you would want to ask the platform team in order to gather the information you need for your design
+* Design the POC landscape
 * Get consensus on the design
-* Split of the design into the various activities and estimate each task
+* Split the design into the various activities and estimate each task
+* Allocate task to members of the team
 * Document all your work
 * Start the implementation and track your progress
