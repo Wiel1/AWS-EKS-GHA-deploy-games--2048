@@ -12,6 +12,12 @@ proceed in the following manner;
 
 3) <b>Phase three (Stretched Objective)</b>: The organisation is very quality and security conscious and would like these capabilities to be built into the delivery pipeline for testing and security scanning. Research what tools you could use and how you would integrate them into the pipeline.
 
+### Learning Objectives
+1) Communication and collaboration
+2) Read and review technical documents and blogs
+3) Translate business requirements into solution architectures
+4) Scheduling, planning and prioritising work
+5) Implementation of design
 
 ### Important 
 
