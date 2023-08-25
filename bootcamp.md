@@ -32,25 +32,25 @@ proceed in the following manner;
 * Document all your work
 * Start the implementation and track your progress
 
-### Teams 
+# Teams 
 
-# Application (Feature, Squad, scrum) Team A ():
+### Application (Feature, Squad, scrum) Team A ():
 * Esther  
 * Sunny  
 * Anis   
 * Arsene  
 
-# Application (Feature, Squad, Scrum) Team B ():
+### Application (Feature, Squad, Scrum) Team B ():
 * Moules
 * Madame
 * Vitalis
 * Derick
 * Christiana
 
-# Platform team:
+### Platform team:
 * Victor
   
-# Chief Architect
+### Chief Architect
 * Victor
 
 
