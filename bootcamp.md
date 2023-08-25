@@ -13,6 +13,12 @@ proceed in the following manner;
 3) <b>Phase three (Stretched Objective)</b>: The organisation is very quality and security conscious and would like these capabilities to be built into the delivery pipeline for testing and security scanning. Research what tools you could use and how you would integrate them into the pipeline.
 
 
+### Important 
+
+* Have team consensus with the design
+* Submit your design to the Chief Architect and argue and defend your approach. Proceed to implementation only after approval from the Chief Architect.
+
+
 ## Some points to consider
 
 * What is a POC and why is it required?
@@ -25,3 +31,22 @@ proceed in the following manner;
 * Allocate task to members of the team
 * Document all your work
 * Start the implementation and track your progress
+
+
+### References
+
+1) https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-sample-java-microservice-on-amazon-eks-and-expose-the-microservice-using-an-application-load-balancer.html
+
+2) https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automatically-build-and-deploy-a-java-application-to-amazon-eks-using-a-ci-cd-pipeline.html
+
+3) https://github.com/marketplace/actions/contrast-security-eks-build-deploy
+
+4) https://github.com/aws-samples/amazon-eks-example-for-stateful-java-service
+
+5) https://octopus.com/blog/deploying-amazon-eks-github-actions
+
+6) https://eggboy.medium.com/ci-cd-java-apps-securely-to-azure-kubernetes-service-with-github-action-part-1-16393af4d097
+
+7) https://levelup.gitconnected.com/github-actions-to-build-your-java-scala-application-test-and-deploy-it-to-kubernetes-cluster-484779dfc200
+
+  
