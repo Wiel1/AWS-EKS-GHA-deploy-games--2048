@@ -1,0 +1,137 @@
+
+
+Agile story structure
+----------------------
+
+Detailed Description:
+
+Business justification:
+
+Acceptance criteria:
+
+Definition of Done:
+
+
+Boot camp activity
+===================
+
+
+================================================================================================================
+================================================================================================================
+======================================= Phase one ==============================================================
+================================================================================================================
+================================================================================================================
+
+
+EKS cluster - platform (EPIC)
+=============================
+1) Find out more information about the EKS cluster from the platform team (Esther) - 30 minutes (Story/task)
+
+Detailed Description:
+---------------------
+Number of nodes
+Which AWS account it is deployed in
+How to connect to the cluster
+What infrastructure is available on the cluster (Controller, etc)
+What statefuls resources are defined on the cluster (PV, Storage classes, etc)
+How is RBAC defined
+Find out if there is a NAT, etc on the Platform
+
+Business justification:
+-----------------------
+Need the info to design the architecture
+
+Acceptance criteria:
+--------------------
+All the info has been provided by the platform team enabling completion of design
+
+
+Definition of Done:
+-------------------
+All the info shown to be enough for the design
+
+
+
+Applications / others (EPIC)
+===========================
+1) Create a GitHub repository
+2) Include a template GHA workflow (yaml) in the repository
+3) Decide on the SCM strategy (branching, releasing, etc)
+4) Decide on the build tool
+5) Decide on IAC tool - Terraform
+6) Explore the games-2048 application - where is the manifest, and how to deploy it
+7) Create a POC environment
+8) Define the service resources
+9) Complete the design diagrams and documentation
+10) Gain consensus/approval
+11) Implementation and testing (compliance checks)
+Subtasks
+11-1 - Write the Terraform to provision the K8S deployment
+11-2 - Write the Terraform to provision the service (Load balancer, etc)
+11-3 - Finalise the GHA workflow code and configuration
+11-4 - xxxx
+
+12) Demo to the business 
+13) naming conventions and standard (poc)
+
+Estimate, scheduling/order, allocation to members
+Dependencies resolution 
+Cross-functional teams / self-sufficient team
+
+Co-create the design - own the design
+
+Key toolchain
+-------------
+GitHub
+GHA
+Container Registry (ECR / DockerHub, etc)
+Terraform
+AWS (EKS, etc)
+
+================================================================================================================
+================================================================================================================
+======================================= Phase two ==============================================================
+================================================================================================================
+================================================================================================================
+
+
+1) Naming convention and standard for resources (dev, uat, prd)
+
+2) Decide on the structure of the namespaces to separate out the environments (dev namespace, uat namespace and a prd namespace)
+
+3) Use the same repo but create a directory structure for the java application
+
+4) Write your java application in the folder above and include all java build artefacts
+
+5) Write the GHA logic to run the java build job
+
+6) Write the GHA logic to create and push the image to the ECR
+
+7) Write the GHS logic to deploy the image to the EKS to the Dev env. (Ensure each env has it own TF state)
+
+8) Write the GHS logic to deploy the image to the EKS to the UAT env.
+
+9) Write the GHS logic to deploy the image to the EKS to the Prd env.
+
+10) Design the RBAC such that team members only have permissions to their environment
+
+
+================================================================================================================
+================================================================================================================
+======================================= Phase three ============================================================
+================================================================================================================
+================================================================================================================
+
+Tools for quality control
+1) SonarQube
+2) CodeGuru Profiler
+
+
+Tools for Security scanning
+1) Blackduck - https://github.com/marketplace/actions/black-duck-scanner
+2) CodeGuru Reviewer 
+3) SonarQube or Checkmarx.
+
+https://judebantony.github.io/cicd-github-action-example/
+
+Integrate into the GHA workflow
