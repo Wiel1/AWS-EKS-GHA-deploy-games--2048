@@ -2,4 +2,9 @@
 
 ## Solution Architecture
 
-![Architecture Diagram](bootcamp1arch.PNG)
+### Simple
+![Simple Architecture Diagram](bootcamp1arch.PNG)
+
+
+### Advanced
+![Advanced Architecture Diagram](bootcamp1AdvancedArch.PNG)
