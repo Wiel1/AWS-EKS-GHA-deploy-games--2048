@@ -12,6 +12,9 @@ proceed in the following manner;
 
 3) <b>Phase three (Stretched Objective)</b>: The organisation is very quality and security conscious and would like these capabilities to be built into the delivery pipeline for testing and security scanning. Research what tools you could use and how you would integrate them into the pipeline.
 
+4) <b> Phase four </b>: The Chief Security Officer, upon reviewing the design has requested that all interactions with the EKS control plane should be NOT traverse the public internet. What steps would you take to implement this?
+
+
 ### Learning Objectives
 1) Communication and collaboration
 2) Read and review technical documents and blogs
