@@ -7,4 +7,4 @@
 
 
 ### Advanced
-![Advanced Architecture Diagram](bootcamp1AdvancedArch.PNG)
+![Advanced Architecture Diagram](bootcamp1advancesArch.PNG)
