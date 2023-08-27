@@ -1,4 +1,4 @@
-# bootcamp1
+# Boot camp 1
 
 # Solution Architecture
 
