@@ -3,6 +3,7 @@
 Agile story structure
 ----------------------
 
+
 Detailed Description:
 
 Business justification:
@@ -114,6 +115,16 @@ AWS (EKS, etc)
 9) Write the GHS logic to deploy the image to the EKS to the Prd env.
 
 10) Design the RBAC such that team members only have permissions to their environment
+
+References
+
+https://medium.com/@alexander.volminger/ci-cd-for-java-maven-using-github-actions-d009a7cb4b8f
+
+https://github.com/Volminger/github-action-maven-tutorial/blob/master/.github/workflows/main.yml
+
+https://towardsaws.com/build-push-docker-image-to-aws-ecr-using-github-actions-8396888a8f9e
+
+https://github.com/aniketpatel12/
 
 
 ================================================================================================================
